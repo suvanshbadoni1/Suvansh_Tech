@@ -79,7 +79,7 @@
                 <a class="nav-link" href="contact.html">Projects</a> -->
               <!-- </li> -->
               <li class="nav-item">
-                <a class="nav-link" href="#info">  <i class="fa fa-user" aria-hidden="true"></i> Contact</a>
+                <a class="nav-link" href="#info"> <i class="fa fa-user" aria-hidden="true"></i> Contact</a>
               </li>
 
             </ul>
@@ -438,7 +438,7 @@
               <a href="tel:+918979475167">
                 <i class="fa fa-phone" aria-hidden="true"></i>
                 <span>
-                  Call +91-8979475167 
+                  Call +91-8979475167
                 </span>
               </a>
               <a href="https://wa.me/+918979475167">
@@ -513,12 +513,19 @@
           <h4>
             Subscribe
           </h4>
-          <form action="#">
-            <input type="text" placeholder="Enter email" />
-            <button type="submit">
+          <!-- <form action="#"> -->
+          <!-- <div class="form"> -->
+            <!-- <input type="text" placeholder="Enter email" id="email" />
+            <button type="button" id="subscribeButton">
               Subscribe
-            </button>
+            </button> -->
+          <!-- </div> -->
+          <!-- </form> -->
+          <form id="myForm" action="https://script.google.com/macros/s/AKfycbwrXWIhHIAssQzPstOqYxRcUJlBo3Ht8vL-IWjwJVJqVcjynmAXmiEA3cN577w6kBGrdg/exec" method="POST" onsubmit="return redirectToTop()">
+            <input type="email" name="email" id="email" placeholder="Enter your email" required />
+            <button type="submit">Subscribe</button>
           </form>
+          <!-- <div id="message" style="display: none;"></div> -->
         </div>
       </div>
     </div>
@@ -556,4 +563,4 @@
 
 </body>
 
-</html>
+</html> 
